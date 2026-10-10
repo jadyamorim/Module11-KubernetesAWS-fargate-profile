@@ -1,8 +1,8 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nginx-test
-  namespace: default
+  name: nginx-dev
+  namespace: dev
   labels:
     app: nginx
 spec:
